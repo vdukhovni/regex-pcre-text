@@ -1,5 +1,5 @@
 Name:                   regex-pcre-text
-Version:                0.94.0.0
+Version:                0.94.0.1
 Synopsis:               Text-based PCRE API for regex-base
 Description:            The PCRE/Text backend to accompany regex-base;
                         needs regex-pcre and regex-tdfa-text
@@ -16,6 +16,7 @@ bug-reports:            https://github.com/cdornan/regex-pcre-text/issues
 
 Extra-Source-Files:
     README.markdown
+    changelog
 
 Cabal-Version:          >= 1.10
 

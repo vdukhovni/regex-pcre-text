@@ -2,22 +2,23 @@
 {-# OPTIONS_GHC -fno-warn-orphans          #-}
 
 module Text.Regex.PCRE.Text
-  -- ** Types
-  ( Regex
+  (
+  -- * Types
+    Regex
   , MatchOffset
   , MatchLength
   , CompOption(CompOption)
   , ExecOption(ExecOption)
   , ReturnCode
   , WrapError
-  -- ** Miscellaneous
+  -- * Miscellaneous
   , unusedOffset
   , getVersion
-  -- ** Medium level API functions
+  -- * Medium level API functions
   , compile
   , execute
   , regexec
-  -- ** CompOption flags
+  -- * CompOption flags
   , compBlank
   , compAnchored
   , compAutoCallout
@@ -32,7 +33,7 @@ module Text.Regex.PCRE.Text
   , compUngreedy
   , compUTF8
   , compNoUTF8Check
-  -- ** ExecOption flags
+  -- * ExecOption flags
   , execBlank
   , execAnchored
   , execNotBOL
